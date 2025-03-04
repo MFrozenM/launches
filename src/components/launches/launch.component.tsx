@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from "next/image";
-import RocketIcon from "@/icons/rocket.icon.svg";
+import RocketIcon from "@/assets/icons/rocket.icon.svg";
 import {_utc_to_local_time} from "@/components/launches/launches.logic";
 import {LaunchModel} from "@/features/launches/launches.model";
 import clsx from "clsx";
