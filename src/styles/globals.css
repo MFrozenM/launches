@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-primary text-white;
+}
+
+@layer utilities {
+  .button {
+    @apply w-fit flex-nowrap cursor-pointer flex justify-center items-center hover:scale-105 text-white transition-transform ease-in-out bg-purple font-medium rounded-xl focus:outline-none px-5 py-2;
+  }
+}
